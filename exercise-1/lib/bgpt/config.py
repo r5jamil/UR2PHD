@@ -28,7 +28,7 @@ LOGS_PATH = "logs-irish.txt"                              # Path to save logs
 
 # Configuration for the model
 PATCH_SIZE = 16                                                 # Patch Size
-PATCH_LENGTH = 512                                             # Patch Length
+PATCH_LENGTH = 2048                                             # Patch Length
 BYTE_NUM_LAYERS = 3                                             # Number of layers in the decoder
 PATCH_NUM_LAYERS = 12                                           # Number of layers in the encoder
 HIDDEN_SIZE = 768                                               # Hidden Size

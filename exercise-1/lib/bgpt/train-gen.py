@@ -15,7 +15,7 @@ from transformers import GPT2Config, get_scheduler
 import torch.distributed as dist
 from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.utils.data.distributed import DistributedSampler
-
+2048
 # Set up distributed training
 world_size = int(os.environ['WORLD_SIZE']) if 'WORLD_SIZE' in os.environ else 1
 global_rank = int(os.environ['RANK']) if 'RANK' in os.environ else 0
